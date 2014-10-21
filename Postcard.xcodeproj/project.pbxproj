@@ -13,6 +13,8 @@
 		9C5BA1AB19F4C5A800F564FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5BA1AA19F4C5A800F564FD /* Images.xcassets */; };
 		9C5BA1AE19F4C5A800F564FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5BA1AC19F4C5A800F564FD /* LaunchScreen.xib */; };
 		9C5BA1BA19F4C5A800F564FD /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BA1B919F4C5A800F564FD /* PostcardTests.swift */; };
+		9CD136FB19F62B290035CEB6 /* beehive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD136FA19F62B290035CEB6 /* beehive.jpg */; };
+		9CD136FD19F632AA0035CEB6 /* bee-on-yellow-flower-silo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD136FC19F632AA0035CEB6 /* bee-on-yellow-flower-silo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9C5BA1B319F4C5A800F564FD /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5BA1B819F4C5A800F564FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C5BA1B919F4C5A800F564FD /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		9CD136FA19F62B290035CEB6 /* beehive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beehive.jpg; sourceTree = "<group>"; };
+		9CD136FC19F632AA0035CEB6 /* bee-on-yellow-flower-silo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bee-on-yellow-flower-silo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		9C5BA1A119F4C5A800F564FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9CD136FC19F632AA0035CEB6 /* bee-on-yellow-flower-silo.jpg */,
+				9CD136FA19F62B290035CEB6 /* beehive.jpg */,
 				9C5BA1A219F4C5A800F564FD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD136FD19F632AA0035CEB6 /* bee-on-yellow-flower-silo.jpg in Resources */,
 				9C5BA1A919F4C5A800F564FD /* Main.storyboard in Resources */,
 				9C5BA1AE19F4C5A800F564FD /* LaunchScreen.xib in Resources */,
+				9CD136FB19F62B290035CEB6 /* beehive.jpg in Resources */,
 				9C5BA1AB19F4C5A800F564FD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				9C5BA1BF19F4C5A800F564FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C5BA1C019F4C5A800F564FD /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				9C5BA1C219F4C5A800F564FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
