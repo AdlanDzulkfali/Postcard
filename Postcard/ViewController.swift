@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterName: UITextField!
     @IBOutlet weak var enterMessage: UITextField!
@@ -29,6 +30,13 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageLabel.text = enterMessage.text
         messageLabel.textColor = UIColor.redColor()
+        
+        nameLabel.hidden = false
+        nameLabel.text = enterName.text
+        nameLabel.textColor = UIColor.blueColor()
+        
+        enterName.text = ""
+        enterName.resignFirstResponder()
         
         enterMessage.text = ""
         enterMessage.resignFirstResponder()
